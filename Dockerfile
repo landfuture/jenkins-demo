@@ -7,7 +7,7 @@
 # theme-park-job
 # theme-park-jobENV JAVA_OPTS -Djenkins.install.runSetupWizard=false theme-park-job
 
-FROM jenkins/jenkins:2.289.1-jdk11
+FROM jenkins/jenkins:2.289.2-jdk11
 
 USER root
 RUN curl -sSL https://get.docker.com/ | sh
